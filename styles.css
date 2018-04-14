@@ -18,23 +18,30 @@ header {
 }
 
 .logo-container {
-    width: 40px;
+    width: 100%;
     height: 40px;
-    background-color: white;
-    margin-left: 5%;
+    margin-left: 20px;
+}
+
+.logo-container img {
+	width: 200px;
+	height:40px;
 }
 
 nav {
-    width: 500px;
-    height:50px;
+   width: 500px;
+   height:50px;
    display: flex;
    justify-content: space-between;
    padding-top: 18px;
-   padding-right: 80px;
+   padding-right: 20px;
 }
 
 .links a {
     font-size: 18px;
+    padding-right: 3px;
+    color: white;
+    text-decoration: none;
 }
 
 /*SOFI*/
@@ -55,22 +62,26 @@ nav {
 .profile-pic {
     width: 100px;
     height: 100px;
-    background-color: #3156A3;
     position: absolute;
     margin-left: 15px;
     margin-top: 15px;
     display: inline-block;
 }
 
+.profile-pic img {
+	width: 100px;
+	height: 100px;
+}
 .personal-info {
-    background-color: #3156A3;
     display: inline-block;
     margin-left: 140px;
-    margin-top: 18px;
+    margin-top: 5px;
     padding: 5px;
-    width: 200px;
+    width: 500px;
     height: 95px;
-    font-size: 12px;
+    font-size: 18px;
+  	font-weight: bold;
+  	color: white;
 }
 
 .logos {
@@ -78,9 +89,9 @@ nav {
     height: 40px;
     display: inline-block;
     position: relative;
-    margin-top: 80px;
+    margin-top: 50px;
     margin-left: 30px;
-    margin-right: 20px;
+    margin-right: 40px;
     float: right;
 }
 
@@ -113,12 +124,12 @@ nav {
 .main-header-container {
     background-color: #C2DB99;
     margin: 0 auto;
-    text-align: center;
-    margin-top: 5px;
+    margin-top: 2px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    text-align: center;
+    text-align: left;
+    padding-top: 25px;
 }
 
 .header-container {
@@ -136,7 +147,9 @@ nav {
     height: 150px;
     width: 150px;
     float: left;
-}
+    padding-top: 10px;
+		padding-left: 15px; 
+  }
 
 .img-container img {
     width: 100%;
@@ -148,17 +161,20 @@ nav {
     max-width: 300px;
     height: auto;
     float: right;
+    padding-right: 5px;
+    text-align: left;
 }
 
 .text-title {
     color: black;
     width: 100%;
     display: inline-block;
-    text-align: center;
+    text-align: left;
+    font-weight: bold;
 }
 
 .text-inside {
-    text-align: center;
+    text-align: left;
     display: inline-block;
 }
 
@@ -166,7 +182,7 @@ nav {
     width: 100%;
     height: 50px;
     margin-top: 10px;
-    background-color: #0B4262;
+    background-color: #96CFCE;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -176,6 +192,8 @@ nav {
 .mail {
    margin-left: 10px;
    margin-top: 10px;
+   color: white;
+   text-decoration: none;
 }
 .div-logos {
   width: 128px;
