@@ -75,11 +75,11 @@ nav {
 .personal-info {
     display: inline-block;
     margin-left: 140px;
-    margin-top: 5px;
+    margin-top: 10px;
     padding: 5px;
     width: 500px;
     height: 95px;
-    font-size: 18px;
+    font-size: 16px;
   	font-weight: bold;
   	color: white;
 }
@@ -111,7 +111,6 @@ nav {
 }
 
 .slider {
-    background-color: #2F7E80;
     margin: 0 auto;
     text-align: center;
     margin-top: 5px;
@@ -122,46 +121,44 @@ nav {
 /*Paula*/
 
 .main-header-container {
-    background-color: #C2DB99;
     margin: 0 auto;
     margin-top: 2px;
-    width: 100%;
+    width: 90%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: left;
-    padding-top: 25px;
+    padding-top: 10px;
 }
 
 .header-container {
     width: 100%;
-    height: 200px;
+    height: 150px;
     margin: auto;
     display: inline-block;
-    background-color: #C2DB99;
     padding: 10px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .img-container {
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
     float: left;
-    padding-top: 10px;
-		padding-left: 15px; 
+    padding-top: 2px;
+		padding-left: 20px; 
   }
 
 .img-container img {
     width: 100%;
     height: auto;
+    border-radius: 50%;
 }
 
 .text-container {
-    min-width: 300px;
-    max-width: 300px;
-    height: auto;
+    min-width: 250px;
+    max-width: 200px;
+    height: 150px;
     float: right;
-    padding-right: 5px;
     text-align: left;
 }
 
@@ -171,17 +168,18 @@ nav {
     display: inline-block;
     text-align: left;
     font-weight: bold;
+    font-size: 14px;
 }
 
 .text-inside {
     text-align: left;
     display: inline-block;
+    font-size: 12px;
 }
 
 .footer {
     width: 100%;
-    height: 50px;
-    margin-top: 10px;
+    height: 60px;
     background-color: #96CFCE;
     display: flex;
     justify-content: space-between;
@@ -190,7 +188,7 @@ nav {
 }
 
 .mail {
-   margin-left: 10px;
+   margin-left: 30px;
    margin-top: 10px;
    color: white;
    text-decoration: none;
@@ -200,6 +198,7 @@ nav {
   height: 36px;
   display: flex;
   justify-content: space-between; 
+  margin-right: 30px;
 
 }
 .img-footer-container {
